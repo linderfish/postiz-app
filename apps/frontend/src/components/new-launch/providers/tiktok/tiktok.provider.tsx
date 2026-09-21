@@ -345,37 +345,37 @@ const TikTokSettings: FC<{
               'This video will be classified as Branded Content.'
             )}
           </div>
-          <div className="my-[10px] text-[14px] text-balance">
-            {t(
-              'tiktok_processing_notice',
-              'After you post, it may take a few minutes for TikTok to process the video and show it on your profile.'
-            )}
-          </div>
-          <div className="my-[10px] text-[14px] text-balance">
-            {t(
-              'by_posting_you_agree_to_tiktoks',
-              "By posting, you agree to TikTok's"
-            )}{' '}
-            {brand_content_toggle && (
-              <>
-                <a
-                  target="_blank"
-                  className="text-[#B69DEC] hover:underline"
-                  href="https://www.tiktok.com/legal/page/global/bc-policy/en"
-                >
-                  {t('branded_content_policy', 'Branded Content Policy')}
-                </a>{' '}
-                {t('and', 'and')}{' '}
-              </>
-            )}
-            <a
-              target="_blank"
-              className="text-[#B69DEC] hover:underline"
-              href="https://www.tiktok.com/legal/page/global/music-usage-confirmation/en"
-            >
-              {t('music_usage_confirmation', 'Music Usage Confirmation')}
-            </a>
-          </div>
+        </div>
+        <div className="my-[10px] text-[14px] text-balance">
+          {t(
+            'tiktok_processing_notice',
+            'After you post, it may take a few minutes for TikTok to process the video and show it on your profile.'
+          )}
+        </div>
+        <div className="my-[10px] text-[14px] text-balance">
+          {t(
+            'by_posting_you_agree_to_tiktoks',
+            "By posting, you agree to TikTok's"
+          )}{' '}
+          {brand_content_toggle && (
+            <>
+              <a
+                target="_blank"
+                className="text-[#B69DEC] hover:underline"
+                href="https://www.tiktok.com/legal/page/global/bc-policy/en"
+              >
+                {t('branded_content_policy', 'Branded Content Policy')}
+              </a>{' '}
+              {t('and', 'and')}{' '}
+            </>
+          )}
+          <a
+            target="_blank"
+            className="text-[#B69DEC] hover:underline"
+            href="https://www.tiktok.com/legal/page/global/music-usage-confirmation/en"
+          >
+            {t('music_usage_confirmation', 'Music Usage Confirmation')}
+          </a>
         </div>
       </div>
     </div>
